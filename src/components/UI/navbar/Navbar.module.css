@@ -1,0 +1,65 @@
+.navbar {
+  display: flex;
+  font-size: 20px;
+  color: #551a8b;
+  font-family: "Roboto", normal;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 70px;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+
+.navbar__auth {
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.navbar > div {
+  margin: 0 70px 0 40px;
+}
+
+.navbar__end {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navbar__start {
+  display: flex;
+  align-items: center;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.navbar__navigation {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  font-size: 30px;
+  margin: 0 165px 0 0;
+  font-weight: bold;
+}
+
+.navbar__item {
+  text-decoration: none;
+}
+.navbar__item:active {
+  color: black;
+}
+.navbar__logo {
+  width: 60px;
+  height: 60px;
+}
+
+navbar__text {
+  font-weight: bold;
+  font-size: 50px;
+}

@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.Button {
+    min-width: 111px;
+    background: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border: 2px solid #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #000;
+}

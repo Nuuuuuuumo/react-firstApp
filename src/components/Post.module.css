@@ -1,0 +1,14 @@
+.Post {
+  margin-bottom: 15px;
+  border: 2px solid #ccc;
+  display: flex;
+  padding: 15px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background: linear-gradient(to top left, powderblue, pink);
+}
+
+.post__btns {
+  display: flex;
+}
